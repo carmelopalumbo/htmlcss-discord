@@ -127,26 +127,32 @@ header .btn:hover{
 }
 /* section2 */
 
-.sec2{
-  height: 675px;
-}
 
-.sec2 .box-sec-2{
+.sec2{
   display: flex;
-  padding-top: 50px;
+  justify-content: space-between;
+  padding: 100px 0;
 }
 
 .img-sec-2{
-  background-color: red;
-  border: 1px solid black;
-  height: 375px;
   flex-basis: 70%;
 }
 
 .descr-sec-2{
   flex-basis: 30%;
-  text-align: center;
-  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.sec2 .descr-sec-2 h2{
+  font-size: 50px;
+  flex-basis: 70%;
+}
+
+.sec2 .descr-sec-2 p{
+  flex-basis: 30%;
+  font-size: 18px;
 }
 
 /* section3 */
