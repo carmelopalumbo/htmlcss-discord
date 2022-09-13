@@ -1,0 +1,180 @@
+/* css */
+
+/* height da rimuovere!! */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.debug{
+  background-color: rgba(255, 0, 0, .35);
+  border: 1px solid black;
+}
+
+.container{
+  max-width: 1200px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* header */
+
+header{
+  padding-top: 10px;
+  background-color: #404EED;
+  height: 60px;
+}
+
+.logo{
+  background-color: blanchedalmond;
+  border: 1px solid black;
+  height: 30px;
+}
+
+.boxmenu{
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu ul li{
+  display: inline-block;
+}
+
+.menu{
+  background-color: blanchedalmond;
+  border: 1px solid black;
+}
+
+.btn{
+  background-color: blanchedalmond;
+  border: 1px solid black;
+}
+
+/* main */
+
+/* section1 */
+
+.sec1 div{
+  display: flex;
+  flex-wrap: wrap;
+  height: 580px;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+}
+
+/* section2 */
+
+.jumbotron{
+  height: 675px;
+}
+
+.jumbotron .box-sec-2{
+  display: flex;
+  padding-top: 50px;
+}
+
+.img-sec-2{
+  background-color: red;
+  border: 1px solid black;
+  height: 375px;
+  flex-basis: 70%;
+}
+
+.descr-sec-2{
+  flex-basis: 30%;
+  text-align: center;
+  background-color: beige;
+}
+
+/* section3 */
+
+.sec3{
+  background-color: lightgray;
+  height: 675px;
+}
+
+.box-sec-3{
+  display: flex;
+  padding-top: 50px;
+}
+
+.img-sec-3{
+  background-color: red;
+  border: 1px solid black;
+  flex-basis: 30%;
+  height: 400px;
+}
+
+.descr-sec-3{
+  flex-basis: 70%;
+  text-align: center;
+  background-color: beige;
+}
+
+/* section5 */
+
+.sec5{
+  height: 700px;
+  background-color: lightgray;
+}
+
+.box-sec-5{
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.descr-sec-5{
+  background-color: beige;
+}
+
+.img-sec-5{
+  height: 400px;
+  text-align: center;
+}
+
+.signup{
+  padding-top: 30px;
+}
+
+/* footer */
+
+footer{
+  background: #151719;
+}
+
+footer .contatti ul{
+  background-color: beige;
+}
+
+.contatti{
+  height: 510px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+
+.yourplace{
+  width: calc(100% / 3);
+  background-color: beige;
+}
+
+.prodotto, .compagnia, .risorse, .norme{
+  width: calc(100% / 6);
+}
+
+.logo-final{
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-final p{
+  height: 50px;
+}
