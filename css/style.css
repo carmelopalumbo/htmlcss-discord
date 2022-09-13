@@ -19,18 +19,16 @@
   margin: 0 auto;
 }
 
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* header */
 
 header{
   padding-top: 10px;
-  background-color: #404EED;
+  background-color: #255EE9;
   height: 60px;
-}
-
-.logo{
-  background-color: blanchedalmond;
-  border: 1px solid black;
-  height: 30px;
 }
 
 .boxmenu{
@@ -40,38 +38,60 @@ header{
 
 .menu ul li{
   display: inline-block;
+  padding: 10px;
 }
 
-.menu{
-  background-color: blanchedalmond;
-  border: 1px solid black;
+.menu ul li a{
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
 }
 
-.btn{
-  background-color: blanchedalmond;
-  border: 1px solid black;
+header .btn{
+  font-size: 14px;
+  padding: 10px 13px;
+  background-color: white;
+  border-radius: 40px;
+  color: black;
+}
+
+header .btn:hover{
+  color: #255EE9;
+}
+
+.menu ul li a:hover{
+  text-decoration: underline;
 }
 
 /* main */
 
-/* section1 */
+/* jumbotron */
 
-.sec1 div{
+.jumbotron{
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+}
+
+.jumbotron .container{
   display: flex;
   flex-wrap: wrap;
   height: 580px;
   justify-content: center;
   align-items: center;
-  background-color: beige;
 }
+
+.jumbotron .container h1{
+  font-size: 50px;
+}
+
 
 /* section2 */
 
-.jumbotron{
+.sec2{
   height: 675px;
 }
 
-.jumbotron .box-sec-2{
+.sec2 .box-sec-2{
   display: flex;
   padding-top: 50px;
 }
