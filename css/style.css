@@ -25,7 +25,7 @@ body{
 /* header */
 
 header{
-  padding-top: 10px;
+  padding-top: 15px;
   background-color: #255EE9;
   height: 60px;
 }
@@ -126,13 +126,13 @@ header .btn:hover{
 
 /* section2 */
 
-.sec2, .sec4{
+.box-sec-2, .box-sec-4{
   display: flex;
   justify-content: space-between;
-  padding: 100px 0;
+  padding: 80px 0;
 }
 
-.sec2 img, .sec4 img{
+.box-sec-2 img, .box-sec-4 img{
   flex-basis: 70%;
 }
 
@@ -141,10 +141,10 @@ header .btn:hover{
 }
 
 .sec2 .descr-sec-2 h2, .sec4 .descr-sec-4 h2, .box-sec-5 .descr-sec-5 h2, .sec3 .box-sec-3 .descr-sec-3 h2{
-  font-size: 50px;
+  font-size: 60px;
 }
 
-.sec2 .descr-sec-2 p, .sec4 .descr-sec-4 p{
+.box-sec-2 .descr-sec-2 p, .sec4 .descr-sec-4 p{
   font-size: 18px;
   margin-top: 20px;
   line-height: 30px;
@@ -287,4 +287,18 @@ footer{
   border-radius: 30px;
   font-weight: bold;
   padding: 10px 16px;
+}
+
+
+/* TEST */
+
+.wave{
+  content: url(../img/wave.svg);
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(5237%) hue-rotate(165deg) brightness(104%) contrast(99%);
+  /* width: auto; */
+}
+
+.wave2{
+  content: url(../img/wave.svg);
+  filter: brightness(0) saturate(100%) invert(99%) sepia(30%) saturate(55%) hue-rotate(176deg) brightness(115%) contrast(93%);
 }
