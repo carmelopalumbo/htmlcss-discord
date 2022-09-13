@@ -125,8 +125,8 @@ header .btn:hover{
 .jumbotron .btn.container p:hover{
   color: #255EE9;
 }
-/* section2 */
 
+/* section2 */
 
 .sec2{
   display: flex;
@@ -158,27 +158,29 @@ header .btn:hover{
 /* section3 */
 
 .sec3{
-  background-color: lightgray;
-  height: 675px;
+  background-color: #F6F6F6;
 }
 
 .box-sec-3{
   display: flex;
-  padding-top: 50px;
-}
-
-.img-sec-3{
-  background-color: red;
-  border: 1px solid black;
-  flex-basis: 30%;
-  height: 400px;
+  padding: 100px 0;
+  justify-content: space-between;
 }
 
 .descr-sec-3{
-  flex-basis: 70%;
-  text-align: center;
-  background-color: beige;
+  width: calc(100% / 3);
 }
+
+.sec3 .box-sec-3 .descr-sec-3 h2{
+  font-size: 60px;
+}
+
+.sec3 .box-sec-3 .descr-sec-3 p{
+  font-size: 18px;
+  margin-top: 30px;
+  line-height: 30px;
+}
+
 
 /* section5 */
 
