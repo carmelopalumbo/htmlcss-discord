@@ -128,31 +128,28 @@ header .btn:hover{
 
 /* section2 */
 
-.sec2{
+.sec2, .sec4{
   display: flex;
   justify-content: space-between;
   padding: 100px 0;
 }
 
-.img-sec-2{
+.sec2 img, .sec4 img{
   flex-basis: 70%;
 }
 
-.descr-sec-2{
+.descr-sec-2, .descr-sec-4{
   flex-basis: 30%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
 }
 
-.sec2 .descr-sec-2 h2{
+.sec2 .descr-sec-2 h2, .sec4 .descr-sec-4 h2{
   font-size: 50px;
-  flex-basis: 70%;
 }
 
-.sec2 .descr-sec-2 p{
-  flex-basis: 30%;
+.sec2 .descr-sec-2 p, .sec4 .descr-sec-4 p{
   font-size: 18px;
+  margin-top: 20px;
+  line-height: 30px;
 }
 
 /* section3 */
@@ -167,10 +164,6 @@ header .btn:hover{
   justify-content: space-between;
 }
 
-.descr-sec-3{
-  width: calc(100% / 3);
-}
-
 .sec3 .box-sec-3 .descr-sec-3 h2{
   font-size: 60px;
 }
@@ -180,6 +173,8 @@ header .btn:hover{
   margin-top: 30px;
   line-height: 30px;
 }
+
+/* for section4 css, watch section2 */
 
 
 /* section5 */
