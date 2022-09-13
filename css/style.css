@@ -142,7 +142,7 @@ header .btn:hover{
   flex-basis: 30%;
 }
 
-.sec2 .descr-sec-2 h2, .sec4 .descr-sec-4 h2{
+.sec2 .descr-sec-2 h2, .sec4 .descr-sec-4 h2, .box-sec-5 .descr-sec-5 h2, .sec3 .box-sec-3 .descr-sec-3 h2{
   font-size: 50px;
 }
 
@@ -154,7 +154,7 @@ header .btn:hover{
 
 /* section3 */
 
-.sec3{
+.sec3, .sec5{
   background-color: #F6F6F6;
 }
 
@@ -162,10 +162,6 @@ header .btn:hover{
   display: flex;
   padding: 100px 0;
   justify-content: space-between;
-}
-
-.sec3 .box-sec-3 .descr-sec-3 h2{
-  font-size: 60px;
 }
 
 .sec3 .box-sec-3 .descr-sec-3 p{
@@ -179,30 +175,44 @@ header .btn:hover{
 
 /* section5 */
 
-.sec5{
-  height: 700px;
-  background-color: lightgray;
-}
-
 .box-sec-5{
-  padding-top: 50px;
+  padding: 100px;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
 }
 
-.descr-sec-5{
-  background-color: beige;
+.box-sec-5 .descr-sec-5 p{
+
+  padding-top: 30px;
+  font-size: 19px;
 }
 
-.img-sec-5{
-  height: 400px;
+.box-sec-5 .signup{
+  padding-top: 30px;
   text-align: center;
 }
 
-.signup{
-  padding-top: 30px;
+.box-sec-5 .signup p:first-child{
+  font-weight: bold;
+  font-size: 30px;
+  background-image: url(../img/stars.svg);
+  background-position: top;
+  background-size: contain;
+  margin-bottom: 40px;
 }
+
+.box-sec-5 .signup p:last-child{
+  background-color: #255EE9;
+  color: white;
+  width: 25%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 18px 0;
+  border-radius: 30px;
+  font-size: 16px;
+}
+
 
 /* footer */
 
