@@ -1,7 +1,5 @@
 /* css */
 
-/* height da rimuovere!! */
-
 *{
   margin: 0;
   padding: 0;
@@ -220,25 +218,60 @@ footer{
   background: #151719;
 }
 
-footer .contatti ul{
-  background-color: beige;
-}
-
 .contatti{
   height: 510px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
   border-bottom: 1px solid white;
+}
+
+.contatti .yourplace p::before{
+  content: '\01F1EE \01F1F9';
+}
+
+.contatti .yourplace p{
+  margin-top: 20px;
+  font-size: 15px;
+  color: white;
+}
+
+.contatti .yourplace span{
+  display: inline-block;
+  margin-top: 18px;
+  font-size: 18px;
+  color: white;
+}
+
+.contatti .yourplace h2{
+  color: #255EE9;
+  font-size: 40px;
 }
 
 .yourplace{
   width: calc(100% / 3);
-  background-color: beige;
 }
 
 .prodotto, .compagnia, .risorse, .norme{
   width: calc(100% / 6);
+}
+
+.contatti ul{
+  color: #255EE9;
+  list-style: none;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+.contatti ul li{
+  color: white;
+  font-weight: lighter;
+  line-height: 30px;
+}
+
+.contatti ul li:hover{
+  text-decoration: underline;
 }
 
 .logo-final{
